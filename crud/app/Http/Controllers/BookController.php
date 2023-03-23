@@ -16,6 +16,8 @@ class BookController extends Controller
     {
         $books = Book::query()->get();
         return view('books.index', compact('books'));
+
+        // asdasdasdasda;
     }
 
     /**
